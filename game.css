@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.gameArea { 
+    background-color: #333; 
+    filter: drop-shadow(-1px 5px 5px #000000);
+    border-radius: 15px; 
+    overflow: hidden; 
+}
+
+.betArea { 
+    background-color: #ffffff; 
+    filter: drop-shadow(-1px 5px 5px #000000);
+    border-radius: 15px; 
+    overflow: hidden; 
+    margin-right: 5px;
+    width: 300px;
+    length: 800px;
+}
+

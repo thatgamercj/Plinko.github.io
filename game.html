@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Canvas Game</title>
+    <link rel="stylesheet" type="text/css" href="game.css" />
+</head>
+<body>
+    <div class="betArea">
+        <div id="balance">Balance: $<span id="balanceAmount">1000</span></div>
+        <input type="number" id="betInput" value="10" min="1" />
+        <button id="doubleBet">Double Bet</button>
+        <button id="halfBet">Half Bet</button>
+        <button id="placeBet">Place Bet</button>
+        <canvas id="betArea" width="300" height="800"></canvas>
+    </div>
+    <div class="gameArea">
+        <canvas id="gameCanvas" width="800" height="800"></canvas>
+    </div>
+    <script src="game.js" defer></script>
+    <script src="data.js" defer></script>
+</body>
+</html>
